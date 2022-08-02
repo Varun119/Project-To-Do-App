@@ -1,0 +1,124 @@
+body {
+  text-align: center;
+  background-color: grey !important;
+  margin: auto;
+}
+
+.App-box {
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 200px;
+  width: 50%;
+  background-color: white;
+  border: 1px solid lightgrey;
+}
+
+.heading {
+  margin-top: 20px;
+  color: grey;
+}
+
+.input-fields {
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  text-align: justify;
+}
+
+input {
+  border: 0;
+  padding: 2px;
+  color: grey;
+  background: transparent;
+}
+
+input:focus {
+  outline: none;
+}
+
+select {
+  border: 0 !important;
+  cursor: pointer;
+  background: transparent;
+}
+
+select:focus {
+  outline: none;
+}
+
+.input-1 {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  margin-top: 5px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.input-1:hover {
+  background-color: lightgrey;
+}
+
+.input-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input-select {
+  width: 50%;
+  padding: 10px 20px 20px 20px;
+  border-right: 1px solid lightgrey;
+}
+
+.input-select:hover {
+  background-color: lightgrey;
+}
+
+.input-date {
+  width: 50%;
+  padding: 10px 20px 20px 20px;
+}
+
+.input-date:hover {
+  background-color: lightgrey;
+}
+
+input::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+}
+
+.input-button {
+  padding: 30px 5px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.task {
+  padding: 10px 25px;
+  margin: 20px 30px;
+  border-bottom: 1px solid lightgrey;
+  text-align: left;
+}
+
+.o-box {
+  position: relative;
+}
+
+.box {
+  position: absolute;
+  display: inline;
+  top: 15px;
+  right: 20px;
+  padding: 10px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 5%;
+  font-weight: bold;
+}
+
+.list-items {
+  list-style: none;
+  padding: 0;
+}
+
+.delete-item {
+  position: absolute;
+  left: -25px;
+  top: 0;
+}
